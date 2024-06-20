@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    width: 500px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+}
+.heading{
+    margin-top: 70px;
+    width: 550px;
+}
+.para{
+    margin-top: 40px;
+    color: #666;
+    line-height: 25px;
+}
+.col{
+    margin-left: 100px;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 50%;
+    padding: 10px;
+    width: 480px;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 8px;
+    border: 1px solid black;
+    width: 50%;
+}
+.save-pass{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.save-head{
+    margin-top: 60px;
+    width: 40%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+}
+.stylishTab{
+    background-color: black;
+    margin-top: 30px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+}
+.stylishTab > h1{
+    font-size: 100px;
+    color: white;
+}
+.stylish-para{
+    color: white;
+    width: 100%;
+    text-align: end;
+    padding-inline-end: 110px;
+}
+.history {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.history li {
+    margin-left: 20px; 
+}
+
+.history li a {
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: white; 
+    font-weight: 500; 
+    padding: 10px; 
+    transition: color 0.3s ease; 
+}
+
+.history li a:hover {
+    color: #999; 
+}
+.History-header>p {
+    color: white;
+    font-size: 80px;
+    transition: color 0.8s ease-in;
+    text-align: center;
+
+}
+
+.History-header>p:hover {
+    color: #999;
+}
+.line{
+    height: 2px;
+    background-color: white;
+}
+.bg{
+    background-color: black;
+}
+th{
+    color: black;
+}
+ table {
+     width: 80%;
+     margin: 20px auto;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ table>thead>tr>th {
+     padding: 20px;
+     text-align: center;
+     background-color: #f2f2f2;
+     border: 1px solid #ddd;
+ }
+
+ table>tbody>tr>td {
+     padding: 12px;
+     text-align: center;
+     border: 1px solid #ddd;
+ }
+ tbody tr {
+     background-color: #f2f2f2;
+ }
